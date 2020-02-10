@@ -1,0 +1,25 @@
+"""
+ Bot's Telegram bot API Token
+"""
+
+# ======================================
+#              WARNING!!!
+# Don't share your any info with anyone!
+# ======================================
+
+# ======================================================
+TOKEN = '1234567890:QWERTYUIPASD_qwertyuiopasdfghjkl123'
+# ======================================================
+
+# =====================
+# Bot's Information
+# =====================
+BOT_USERNAME = 'example_bot'
+BOT_CHATID = 12345
+
+# =====================
+# Admin's Information
+# =====================
+ADMIN_USERNAME = 'root_admin'
+ADMIN_CHATID = 12345
+ADMIN_NICKNAME = 'Admin'
