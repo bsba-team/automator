@@ -1,1 +1,1 @@
-from templates.Templates import Message
+from templates.Templates import Template
