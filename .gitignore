@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignoring configuration's of the bot
+config.py
+
+# PyCharm's files
