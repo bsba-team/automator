@@ -1,6 +1,7 @@
 from core.Bot import Bot
+from templates import Message
 
-class HandleMessage:
+class Message:
     def message(self):
         @Bot.bot.message_handler(content_types=['text'])
         def text_message(message):

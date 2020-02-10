@@ -1,1 +1,1 @@
-from handlers.Message import HandleMessage
+from handlers.Message import Message

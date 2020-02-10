@@ -1,8 +1,8 @@
 from core.Bot import Bot
-from handlers import HandleMessage
+from handlers import Message
 
 # Message handler
-message_handler = HandleMessage()
+message_handler = Message()
 message_handler.message()
 
 # Bot starter
