@@ -5,6 +5,6 @@ from handlers import HandleMessage
 message_handler = HandleMessage()
 message_handler.message()
 
-# Bot
+# Bot starter
 bot = Bot()
 bot.start()
