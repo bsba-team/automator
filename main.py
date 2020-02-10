@@ -12,7 +12,7 @@ def text_message(message):
     elif message.text == "/help":
         bot.reply_to(message, messages.message.help, parse_mode='HTML', disable_web_page_preview=True)
     else:
-        bot.reply_to(message, '<b>Please, can you type<b> /help. I can\'t get you')
+        bot.reply_to(message, messages.message.error, parse_mode='HTML', disable_web_page_preview=True)
 
 logger.bot_logs()
 bot.polling(none_stop=True, interval=0)
