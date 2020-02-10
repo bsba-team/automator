@@ -2,6 +2,7 @@ import logging
 import telebot
 import customization
 
+
 # Outputs debug messages to console.
 def bot_logs():
     logger = telebot.logger
