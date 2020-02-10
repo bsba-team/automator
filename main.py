@@ -1,4 +1,4 @@
-from core.Bot import Bot
+from core import Bot
 from handlers import Message
 
 # Message handler

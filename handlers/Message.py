@@ -1,5 +1,5 @@
-from core.Bot import Bot
-from templates.Templates import Template
+from core import Bot
+from templates import Template
 
 template = Template()
 
@@ -14,7 +14,5 @@ class Message:
             else:
                 Bot.bot.reply_to(message, template.error(), parse_mode='HTML', disable_web_page_preview=True)
             pass
-
-        pass
         pass
     pass
