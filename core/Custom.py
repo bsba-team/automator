@@ -3,7 +3,7 @@
 # Refer to it with this kind of formation and formulation:
 # Example:
 # customization.color.BOLD + "String" + customization.color.END
-class color:
+class Colors:
 
     # String to purple color
     PURPLE = '\033[95m'
