@@ -51,7 +51,9 @@ There are tons of bots using pyTelegramBotAPI in their Telegram bot as:
 
 <p align="center">
     <a href="https://bsba.gq">
-        Copyright to BSBA TEAM
+        <b>
+            Copyright to BSBA TEAM
+        </b>
     </a>
 </p>
 
