@@ -11,11 +11,11 @@
   </a>
 </p>
 
-This bot was built with [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) in [Python](https://www.python.org/). This bot works as package modular, so don't worry about adding your own customizations. It will not affect to the bot's working process. Just, don't forget to import core/bot and you're ready to go!
-If you want to create your own bot with my codes, just head to the [Deploy your own](#deploy-your-own) section. 
+**This bot was built with [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) in [Python](https://www.python.org/). This bot works as package modular, so don't worry about adding your own customizations. It will not affect to the bot's working process. Just, don't forget to import core/bot and you're ready to go!
+If you want to create your own bot with my codes, just head to the [Deploy your own](#deploy-your-own) section.**
  
 ## Deploy Your Own
-To deploy your own bot with my instances follow the steps provided below:
+**To deploy your own bot with my instances follow the steps provided below:**
 
 1. Download my source codes from [there](#download-sources).
 2. Unzip my master source code.
