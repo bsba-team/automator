@@ -46,6 +46,12 @@ There are tons of bots using pyTelegramBotAPI in their Telegram bot as:
 > **Important Note:** Under the MIT license, if you're running your own instance, you should add a link to the source [(this repository)](https://github.com/sakhib-orzklv/automator) in your bot's bio or about page. If you're modifying this source and making your own bot, you should link to the source of your own version of the bot according to the MIT license. Check [LICENSE](LICENSE) for more info.
 
 <p align="center">
-    <a href="https://t.me/bsba_group"><b>BSBA</b></a> icon is from <a href="https://t.me/sakhib_orzklv/">Genemator Sakhib</a> by Sokhibjon Orzikulov.
+    <a href="https://bsba.gq"><b>BSBA</b></a> icon is from <a href="https://t.me/sakhib_orzklv/">Genemator Sakhib</a> by Sokhibjon Orzikulov.
+</p>
+
+<p align="center">
+    <a href="https://bsba.gq">
+        Copyright to BSBA TEAM
+    </a>
 </p>
 
