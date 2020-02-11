@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://t.me/bsba_group">
-    <img src="assets/header.png" width="100%" height="300">
+    <img src="assets/header.png" width="100%" height="180">
   </a>
   <h1 align="center">Automator R8</h1>
 </p>
