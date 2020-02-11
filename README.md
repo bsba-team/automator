@@ -16,9 +16,19 @@ If you want to create your own bot with my codes, just head to the [Deploy your 
  
 ## Deploy Your Own
 To deploy your own bot with my instances follow the steps provided below:
-1. 
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/zeit/now-examples/tree/master/hexo)
+1. Download my source codes from [there](#download-sources).
+2. Unzip my master source code.
+3. CD to the root path of the project.
+4. Create your own bot in BotFather
+5. Copy bot api and bot username of your bot
+6. Run ```python setup.py```.
+7. Enter your bot's credentials
+8. Run you bot with ```python main.py```
+
+
+## Download Sources
+[![Deploy](https://zeit.co/button)](https://github.com/sakhib-orzklv/automator/archive/master.zip)
 
 ## Examples Websites using pyTelegramBotAPI 
 There are tons of bots using pyTelegramBotAPI in their Telegram bot as:
@@ -33,6 +43,6 @@ There are tons of bots using pyTelegramBotAPI in their Telegram bot as:
 > The bot page is still in beta phase so feel free to [open issues](https://github.com/sakhib-orzklv/automator/issues/new) and give me some suggestions.
 ---
 
-> Important Note: Under the MIT license, if you're running your own instance, you should add a link to the source [(this repository)](https://github.com/sakhib-orzklv/automator) in your websites bio. If you're modifying this source and making your own bot, you should link to the source of your own version of the bot according to the MIT license. Check [LICENSE](LICENSE) for more info.
+> Important Note: Under the MIT license, if you're running your own instance, you should add a link to the source [(this repository)](https://github.com/sakhib-orzklv/automator) in your bot's bio or about page. If you're modifying this source and making your own bot, you should link to the source of your own version of the bot according to the MIT license. Check [LICENSE](LICENSE) for more info.
 
 `BSBA` icon is from [Genemator Sakhib](https://t.me/sakhib_orzklv/) by Sokhibjon Orzikulov.
