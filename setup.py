@@ -20,7 +20,7 @@ def start():
 
 def backup(file):
     if os.path.exists(file):
-        os.replace(file, file + ".bak")
+        os.replace(file, file + ".backup")
     else:
         print("There is no older file to backup")
 
