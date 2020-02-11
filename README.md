@@ -30,15 +30,20 @@ If you want to create your own bot with my codes, just head to the [Deploy your 
 ## Download Sources
 [![Deploy](https://zeit.co/button)](https://github.com/sakhib-orzklv/automator/archive/master.zip)
 
+## Documentations
+* **pyTelegramBotAPI** - [Github](https://github.com/eternnoir/pyTelegramBotAPI)
+* **Telegram Bot API** - [Website](https://core.telegram.org/bots/api)
+
 ## Examples Websites using pyTelegramBotAPI 
 There are tons of bots using pyTelegramBotAPI in their Telegram bot as:
-| Versions:            | Links:                             | Source Codes:                                                 |
-|----------------------|------------------------------------|---------------------------------------------------------------|
-|**Stock Hexo**        | _https://hexo.now-examples.now.sh_ |[Source](https://github.com/zeit/now-examples/tree/master/hexo)|
-|**Genemator's Blog**  | _http://bsba.gq_                   |[Source](https://github.com/sakhib-orzklv/bsba)                |
-|**Vue.js Homepage**   | _https://vuejs.org/_               |[Source](https://github.com/vuejs/vuejs.org)                   |
-|**Hexo's Homepage**   | _https://hexo.io/_                 |[Source](https://github.com/hexojs/hexo)                       |
-|**Meteor.js Homepage**| _https://docs.meteor.com/_         |[Source](https://github.com/meteor/docs)                       |
+* [SiteAlert bot](https://telegram.me/SiteAlert_bot) ([source](https://github.com/ilteoood/SiteAlert-Python)) by *ilteoood* - Monitors websites and sends a notification on changes
+* [TelegramLoggingBot](https://github.com/aRandomStranger/TelegramLoggingBot) by *aRandomStranger*
+* [Send to Kindle Bot](https://telegram.me/Send2KindleBot) by *GabrielRF* - Send to Kindle files or links to files.
+* [Telegram LMGTFY_bot](https://github.com/GabrielRF/telegram-lmgtfy_bot) ([source](https://github.com/GabrielRF/telegram-lmgtfy_bot)) by *GabrielRF* - Let me Google that for you.
+* [Telegram UrlProBot](https://github.com/GabrielRF/telegram-urlprobot) ([source](https://github.com/GabrielRF/telegram-urlprobot)) by *GabrielRF* - URL shortener and URL expander.
+* [Telegram Proxy Bot](https://bitbucket.org/master_groosha/telegram-proxy-bot) by *Groosha* - A simple BITM (bot-in-the-middle) for Telegram acting as some kind of "proxy".
+* [Telegram Proxy Bot](https://github.com/mrgigabyte/proxybot) by *mrgigabyte* - `Credits for the original version of this bot goes to` **Groosha** `, simply added certain features which I thought were needed`.
+* [RadRetroRobot](https://github.com/Tronikart/RadRetroRobot) by *Tronikart* - Multifunctional Telegram Bot RadRetroRobot.
 
 > The bot page is still in beta phase so feel free to [open issues](https://github.com/sakhib-orzklv/automator/issues/new) and give me some suggestions.
 ---
