@@ -1,22 +1,16 @@
 import os
-from core import Colors
 
 file = "config.py"
 
 def warn():
-    print(
-        "If you see those texts as symbols or byte codes, please execute command below in Powershell as admin:")
-    print(
-        "Set-ItemProperty HKCU:\Console VirtualTerminalLevel -Type DWORD 1")
+    print("If you see those texts as symbols or byte codes, please execute command below in Powershell as admin:")
+    print("Set-ItemProperty HKCU:\Console VirtualTerminalLevel -Type DWORD 1")
 
 
 def start():
-    print(
-        Colors.BOLD + Colors.RED + "Setup Process is still in beta phase!" + Colors.END)
-    print(
-        Colors.BOLD + Colors.YELLOW + "For any further problems or bugs," + Colors.END)
-    print(
-        Colors.BOLD + Colors.YELLOW + "Please, contact with the creator:" + Colors.END)
+    print("Setup Process is still in beta phase!")
+    print("For any further problems or bugs,")
+    print("Please, contact with the creator:")
 
 def backup(file):
     if os.path.exists(file):
@@ -26,17 +20,17 @@ def backup(file):
 
 def setup(file):
     bot_token = input(
-        Colors.BOLD + Colors.BLUE + "Copy and paste here Telegram bot's token: " + Colors.END)
+        "Copy and paste here Telegram bot's token: ")
     bot_username = input(
-        Colors.BOLD + Colors.BLUE + "Enter bot's username: " + Colors.END)
+        "Enter bot's username: ")
     bot_id = input(
-        Colors.BOLD + Colors.BLUE + "Enter bot's chat id: " + Colors.END)
+        "Enter bot's chat id: ")
     admin_username = input(
-        Colors.BOLD + Colors.BLUE + "Enter admin's username: " + Colors.END)
+        "Enter admin's username: ")
     admin_id = input(
-        Colors.BOLD + Colors.BLUE + "Enter admin's chat id: " + Colors.END)
+        "Enter admin's chat id: ")
     admin_nickname = input(
-        Colors.BOLD + Colors.BLUE + "Enter admin's nickname: " + Colors.END)
+        "Enter admin's nickname: ")
 
     if bot_id == ' ' or bot_id == '':
         return bot_id == 0
