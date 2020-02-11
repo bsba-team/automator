@@ -11,8 +11,15 @@ class Template:
         pass
     pass
 
+    def about(self):
+        about = open('templates/template/about.html', 'rb').read()
+        return about
+        pass
+    pass
+
     def error(self):
         error = open('templates/template/error.html', 'rb').read()
         return error
         pass
     pass
+
