@@ -10,3 +10,6 @@ Be precise and don't trash your beautiful codes! - A.Sakhib
 
 class Image:
     images = 'assets/images'
+
+    # Logo of BSBA as an example import
+    logo = open(images+'logo.png', 'rb')
