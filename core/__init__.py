@@ -1,3 +1,3 @@
-from core.Logs import Logs
-from core.Custom import Colors
-from core.Bot import Bot
+from core.logs import Logs
+from core.custom import Colors
+from core.bot import Bot

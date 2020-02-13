@@ -1,6 +1,6 @@
 import logging
 import telebot
-from core.Custom import Colors
+from core.custom import Colors
 
 
 # Outputs debug messages to console.
