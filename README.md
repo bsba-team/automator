@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://t.me/bsba_group">
-    <img src="assets/header.png" width="100%" height="150">
+    <img src="assets/images/header.png" width="100%" height="150">
   </a>
   <h1 align="center">Automator R8</h1>
 </p>
@@ -28,7 +28,7 @@ If you want to create your own bot with my codes, just head to the [Deploy your 
 
 
 ## Download Sources
-<a href="https://github.com/sakhib-orzklv/automator/archive/master.zip"><img src="assets/github.png"></a>
+<a href="https://github.com/sakhib-orzklv/automator/archive/master.zip"><img src="assets/images/github.png"></a>
 
 ## Documentations
 * **pyTelegramBotAPI** - [Github](https://github.com/eternnoir/pyTelegramBotAPI)
