@@ -1,4 +1,3 @@
-import random
 from core import Bot
 from templates import Template
 
