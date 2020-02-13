@@ -4,8 +4,8 @@ from templates import Template
 template = Template()
 
 
-class Message:
-    def message(self):
+class Handler:
+    def handler(self):
         @Bot.bot.message_handler(content_types=['text'])
         def text_message(message):
             if message.text == "/start":
@@ -17,7 +17,5 @@ class Message:
             else:
                 Bot.bot.reply_to(message, template.error(), parse_mode='HTML', disable_web_page_preview=True)
             pass
-
         pass
-
     pass
