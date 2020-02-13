@@ -1,21 +1,15 @@
-from core import Bot
-from templates import Template
-
-template = Template()
-
+from commands import Start
+from commands import Help
 
 class Handler:
     def handler(self):
-        @Bot.bot.message_handler(content_types=['text'])
-        def text_message(message):
-            if message.text == "/start":
-                Bot.bot.reply_to(message, template.start(), parse_mode='HTML', disable_web_page_preview=True)
-            elif message.text == "/help":
-                Bot.bot.reply._to(message, template.help(), parse_mode='HTML', disable_web_page_preview=True)
-            elif message.text == "/about":
-                Bot.bot.reply_to(message, template.about(), parse_mode='HTML', disable_web_page_preview=True)
-            else:
-                Bot.bot.reply_to(message, template.error(), parse_mode='HTML', disable_web_page_preview=True)
-            pass
-        pass
+
+        # Start command
+        start = Start()
+        start.start()
+
+        # Help command
+        help = Help()
+        help.help()
+
     pass
