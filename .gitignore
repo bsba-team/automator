@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Ignoring configuration's of the bot
-config.py
+# config.py
 
 # IDEA Files Sucks
 .idea
