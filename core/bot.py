@@ -1,9 +1,14 @@
 import telebot
 import config
+import os
 from core import Logs
 
 class Bot:
-    bot = telebot.TeleBot(config.TOKEN)
+    if config.DEBUG:
+        bot = telebot.TeleBot(config.TOKEN)
+    else:
+        bot = telebot.TeleBot(os.getenv("TOKEN"))
+
 
     def start(self):
         logs = Logs()
