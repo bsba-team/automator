@@ -1,6 +1,6 @@
 import os
 
-file = "config.py"
+file = "../config.py"
 
 def warn():
     print("If you see those texts as symbols or byte codes, please execute command below in Powershell as admin:")
