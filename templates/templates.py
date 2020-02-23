@@ -21,5 +21,10 @@ class Template:
         error = open('templates/template/error.html', 'rb').read()
         return error
         pass
+
+    def feedback(self):
+        feedback = open('templates/template/feedback.html', 'rb').read()
+        return feedback
+        pass
     pass
 
