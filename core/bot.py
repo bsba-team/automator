@@ -2,6 +2,7 @@ import telebot
 import config
 import os
 from core import Logs
+from core.i18n import i18n
 
 class Bot:
     if config.DEBUG:
