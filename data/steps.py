@@ -1,4 +1,0 @@
-class Step:
-    steps = {
-
-    }

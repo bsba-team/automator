@@ -28,7 +28,7 @@ If you want to create your own bot with my codes, just head to the [Deploy your 
 
 
 ## Download Sources
-<a href="https://github.com/sakhib-orzklv/automator/archive/master.zip"><img src="assets/images/github.png"></a>
+<a href="https://github.com/sakhib-orzklv/automator/archive/master.zip">Download Master Branch</a>
 
 ## Documentations
 * **pyTelegramBotAPI** - [Github](https://github.com/eternnoir/pyTelegramBotAPI)
