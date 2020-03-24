@@ -19,6 +19,7 @@ try:
     print('Bot has started...')
 except ImportError:
     print('Failed to import required modules, quitting...')
+    print('Module Import Failed')
     exit(1)
 
 bot = telebot.TeleBot(token=config.token)
