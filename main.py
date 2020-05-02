@@ -1,28 +1,27 @@
 # -*- coding: utf-8 -*-
+import os
+import sys
+import subprocess
+from . import config
+
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    pass
+
 
 try:
-    print('Importing "time"...')
-    import time
-
-    print('Successfully imported "time"')
-
     print('Importing "pyTelegramBotApi"...')
     import telebot
-
     print('Successfully imported "pyTelegramBotApi"')
 
-    print('Importing "configs"...')
-    import config
-
-    print('Successfully imported "config"')
-
     print('Bot has started...')
-except ImportError:
-    print('Failed to import required modules, quitting...')
-    print('Module Import Failed')
-    exit(1)
+except ImportError as err:
+    install("pyTelegramBotApi")
+    os.execl(sys.executable, sys.executable, *sys.argv)
 
-bot = telebot.TeleBot(token=config.token)
+
+bot = telebot.TeleBot(config.token)
 
 
 @bot.message_handler(content_types=["text"])
